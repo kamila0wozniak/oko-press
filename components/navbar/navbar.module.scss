@@ -1,0 +1,35 @@
+.navigation {
+  background-color: white;
+  height: 72px;
+  width: 1440px;
+}
+
+.navigationContent {
+  padding: 0 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.notChangingMenu {
+  display:flex;
+  flex-direction: row;
+}
+
+.centerImage {
+  margin-top:16px;
+}
+
+.centerLinks {
+  padding:  22.5px 0 30.5px 0;
+}
+
+.menuLink {
+  line-height: 19px;
+  padding-left: 32px;
+  text-transform: capitalize;
+}
+
